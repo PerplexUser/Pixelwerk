@@ -1,5 +1,7 @@
 # Pixelwerk für Windows
 
+Installation files: https://github.com/PerplexUser/Pixelwerk/releases/tag/v5.0.2
+
 Vollständiger Pixelwerk-v5-Editor in einer lokalen Electron-Anwendung. Ein Quellstand erzeugt eine portable Ordner-ZIP und ein Offline-Setup für Windows x64. © by www.perplex.click bleibt erhalten.
 
 Die ausführbaren Ausgaben stehen im Release neben diesem Quellcodearchiv. Die Windows-Abnahme ist separat in `docs/QA-Releasebericht.md` ausgewiesen. Keine automatische Updatesuche, kein Konto, keine Telemetrie, kein Projektformat und keine automatische Bildspeicherung.

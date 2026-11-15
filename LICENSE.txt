@@ -1,0 +1,21 @@
+Pixelwerk – © by www.perplex.click - Michael Lappenbusch
+
+Die unveränderte Vorlage wurde vom Auftraggeber für diese Umsetzung bereitgestellt.
+Die Vorlage enthält keinen gesonderten Lizenztext. Dieses Paket vergibt keine
+neuen Rechte am ursprünglichen Editor, Logo oder Markenbestand. Vor öffentlicher
+Verteilung sind die Rechte mit dem Rechteinhaber zu klären.
+
+The reference was supplied by the client for this implementation. It contains no
+separate license grant. This package does not grant new rights to the original
+editor, logo or brand. Confirm distribution rights with the rights holder before
+public distribution.
+
+Die mitgelieferte Electron-Laufzeit steht unter der MIT-Lizenz; Chromium und
+weitere Laufzeitbestandteile haben eigene Lizenzen. Siehe LICENSE.electron.txt
+bzw. LICENSE und LICENSES.chromium.html in der ausführbaren Ausgabe.
+
+The bundled Electron runtime uses the MIT license. Chromium and other runtime
+components have their own licenses; see LICENSE.electron.txt / LICENSE and
+LICENSES.chromium.html in the executable package.
+
+Diese Ausgabe ist unsigniert. / This build is unsigned.

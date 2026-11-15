@@ -1,0 +1,6 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> pixelwerk-desktop@5.0.1 check
+> node scripts/check.cjs
+
+26 JavaScript files checked; reference SHA-256 and unchanged core/CSS verified.

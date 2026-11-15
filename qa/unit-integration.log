@@ -1,0 +1,46 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> pixelwerk-desktop@5.0.1 test
+> node --test tests/unit/*.test.cjs tests/integration/*.test.cjs
+
+✔ cold launch retains its image until the renderer is ready and exposes no filesystem path (52.868389ms)
+✔ second instance queues Unicode/space filenames, survives bad images and also works before window creation (16.82129ms)
+✔ secure BrowserWindow, local-only network policy and profile initialization before ready (12.639759ms)
+✔ native file contracts return only chosen image bytes and reject foreign IPC (9.781911ms)
+✔ multiple native imports stream selected files and cannot read invented paths (9.670852ms)
+✔ native save confirms disk content only after completion; cancellation and errors are explicit (17.128324ms)
+✔ system clipboard bridge round trips PNG and handles empty clipboard (8.509855ms)
+✔ close handshake permits cancel/export/discard and validates request tokens (7.717428ms)
+✔ adapter works without a host and exposes exactly four metadata-only contracts (8.68904ms)
+✔ mock host receives original schemas and abort lifecycle stops calls (0.777096ms)
+✔ unavailable or throwing host registration does not stop the editor (7.880749ms)
+✔ image dimension limits are exact, including the 20 MP boundary (3.045558ms)
+✔ detect png by content and dimensions (1.040466ms)
+✔ detect jpeg by content and dimensions (2.325527ms)
+✔ detect bmp by content and dimensions (2.647003ms)
+✔ malformed, unsupported and truncated image headers are rejected (1.00191ms)
+✔ IPC objects reject additional fields, arrays, bad MIME/bytes and missing arguments (1.019295ms)
+✔ Windows filenames sanitize reserved names, punctuation, suffixes and Unicode (0.976857ms)
+✔ IPC sender validation rejects foreign windows, child frames and navigation (0.377182ms)
+✔ flood-fill contiguous/global behavior and selection clipping (2.98688ms)
+✔ all effect presets and extreme adjustments match original byte-for-byte (1.808028ms)
+✔ smudge transparent pickup creates no black fringe (0.710189ms)
+✔ BMP writes bottom-up 24-bit BGR, row padding and white alpha flattening (0.669154ms)
+✔ atomic write replaces only after successful write and cleans temporary files (30.988004ms)
+✔ rename failure preserves original file and removes temporary output (11.876441ms)
+✔ disk full during write does not destroy existing destination (5.646591ms)
+✔ native import rejects >80 MiB before allocation and preserves basename privacy (8.652963ms)
+✔ portable and installed profiles remain separate and mode is explicit (1.117916ms)
+✔ language persists, serializes concurrent writes, and malformed preferences recover (20.627117ms)
+✔ uninstall manifest deletes only packaged files and keeps unknown exports/directories (44.801624ms)
+✔ Windows launch paths preserve spaces, Unicode, upper-case extensions and order (5.532054ms)
+✔ launch parsing excludes Electron options, URLs, unrelated files and malformed arguments (0.923117ms)
+✔ development launch skips the app entry and resolves relative paths in the launch working directory (2.876358ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 33
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 304.444821

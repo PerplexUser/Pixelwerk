@@ -1,0 +1,58 @@
+{
+  "verification": "passed",
+  "source_commit": "aabd4454d0b1adbaf357b2468fe9d71f64a184fd",
+  "portable_zip_integrity": true,
+  "portable_single_root": "Pixelwerk",
+  "portable_entries": 78,
+  "setup_nsis_integrity": true,
+  "setup_embedded_payload_integrity": true,
+  "portable_manifest": {
+    "mode": "portable",
+    "version": "5.0.1"
+  },
+  "setup_embedded_manifest": {
+    "mode": "installed",
+    "version": "5.0.1"
+  },
+  "app_asar_identical_between_packages": true,
+  "app_asar_sha256": "cb0f679659449b10235c8cb23e0d6ecf1044dabdb092899151c3a4625ed392f7",
+  "packaged_sources_match_working_tree": {
+    "package_version": "5.0.1",
+    "source_files": {
+      "src/main/contracts.cjs": "ce36318b195a8436f1dc22812c5b2fc13259dad59f0f9bfb62d8d683c63d6c17",
+      "src/main/files.cjs": "b992806d32f9e07da6fea94ece7d34a8140fd59356ccd403e7fc7ee38a4283c9",
+      "src/main/launch-files.cjs": "047628c1ca14c599dd61932ff98f69bcd4e6332fd2a6ae3d8db3659b18857be4",
+      "src/main/main.cjs": "4dde25d7d0946a026970f790c91a7738e388db924a45267acf52b83047b7fb2b",
+      "src/main/messages.cjs": "0a17564e9d45a224fbc9e5b1185987e8acf130d4769f1ec7843bbccc2bebd2d1",
+      "src/main/profile.cjs": "23dab15650c9ef62088089cc7f2b7b4d31f717de0e46dccf2a157c3b91be41e1",
+      "src/preload/preload.cjs": "a923d2f623a76beb5896f57dc60c28336ff3f039422eb5b874edb292acac8cd6",
+      "src/renderer/README.txt": "1a449dc3e06ffb4f6f119996db36152179a08ed38d0639fe641d766e7ce9580a",
+      "src/renderer/agent-adapter.js": "5c78814c89fb6cfa2eb5f432b320fcbcabea875d1d8a5fbde78fbd9d28b29231",
+      "src/renderer/core.js": "122c84b6baa8971bd69b500dac60dbb75ce564c00739bc9ec875b9d8d1253cf1",
+      "src/renderer/editor.js": "91b58db96441a2db87d972862143a56ff9cea438e03a284ca2e123a8e983d783",
+      "src/renderer/i18n.js": "c433553e2e35e1f8d61f95e1b7c727a2bbe0223d894d1c87ff285c7a74d802be",
+      "src/renderer/image-info.js": "0ff57b48a17220396100dcd022b8070418e54923a15cac87294909b54305a837",
+      "src/renderer/index.html": "4c599a8d56dd83f1bf0270c9348787e7021f12dfd5ee9722b5d5fc494a8ee1ce",
+      "src/renderer/style.css": "8f5022ed8e1b5d2cb77ed0c2fcadd46a077f97a8cb812f975c402601677e68e7"
+    },
+    "excluded_development_types": [
+      "src/preload/desktop.d.ts"
+    ]
+  },
+  "portable_machine": "AMD64 (0x8664)",
+  "application_authenticode_certificate_present": false,
+  "uninstall_manifest_has_no_recursive_root_removal": true,
+  "windows_application_executed": false,
+  "artifacts": [
+    {
+      "file_name": "Pixelwerk-5.0.1-Windows-x64-Portable.zip",
+      "size_bytes": 154216858,
+      "sha256": "6f13310abdff12ca72e1811d5557327b14fa22d65ed5654a8223c90ef8fdb687"
+    },
+    {
+      "file_name": "Pixelwerk-5.0.1-Windows-x64-Setup.exe",
+      "size_bytes": 134406499,
+      "sha256": "263c8e9e5dc898832c42394cc1e1d007622341d445d4a94c2f5369600229ea3f"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> pixelwerk-desktop@5.0.1 dist:win
+> node scripts/build.cjs all
+
+  • electron-builder  version=26.18.0 os=6.18.57
+  • loaded configuration  file=/workspace/scratch/bbed55876697/pixelwerk-windows/electron-builder.cjs
+  • skipped dependencies rebuild  reason=npmRebuild is set to false
+  • packaging       platform=win32 arch=x64 electron=45.3.2 appOutDir=dist/portable/win-unpacked
+  • downloaded      label=electron progress=100%
+  • downloaded electron zip extracted successfully  output=/workspace/scratch/bbed55876697/pixelwerk-windows/dist/portable/win-unpacked
+  • searching for node modules  pm=npm searchDir=/workspace/scratch/bbed55876697/pixelwerk-windows
+  • no node modules found in collection, trying next search directory  pm=npm searchDir=/workspace/scratch/bbed55876697/pixelwerk-windows
+  • searching for node modules  pm=traversal searchDir=/workspace/scratch/bbed55876697/pixelwerk-windows
+  • using manual traversal of node_modules to build dependency tree
+  • no node modules found in collection, trying next search directory  pm=traversal searchDir=/workspace/scratch/bbed55876697/pixelwerk-windows
+  • no node modules returned while searching directories  searchDirectories=[""]
+  • updating asar integrity executable resource  executablePath=dist/portable/win-unpacked/Pixelwerk.exe
+  • file signing skipped via signExecutable configuration  file=dist/portable/win-unpacked/Pixelwerk.exe
+
+7-Zip (a) [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=C.UTF-8,Utf16=on,HugeFiles=on,64 bits,9 CPUs INTEL(R) XEON(R) PLATINUM 8573C (C06F2),ASM,AES-NI)
+
+Scanning the drive:
+3 folders, 75 files, 374437355 bytes (358 MiB)
+
+Creating archive: /workspace/scratch/bbed55876697/pixelwerk-windows/dist/Pixelwerk-5.0.1-Windows-x64-Portable.zip
+
+Items to compress: 78
+
+
+Files read from disk: 75
+Archive size: 154216858 bytes (148 MiB)
+Everything is Ok
+e7d695bf1881f6f2b2d1313c53f3f26c1defa0b57be5332b070a6e8cc1755510  Pixelwerk-5.0.0-Quellcode.zip
+bcb364149ccedd1d3ef6f9fa6fd23ffcd6fd9d01e017906a157cb3f86dd44a61  Pixelwerk-5.0.0-Windows-x64-Portable.zip
+f5d599e83975b896e05b75df0fff4b05485add1c070c03e293050cc8598a5d47  Pixelwerk-5.0.0-Windows-x64-Setup.exe
+6f13310abdff12ca72e1811d5557327b14fa22d65ed5654a8223c90ef8fdb687  Pixelwerk-5.0.1-Windows-x64-Portable.zip
+  • electron-builder  version=26.18.0 os=6.18.57
+  • loaded configuration  file=/workspace/scratch/bbed55876697/pixelwerk-windows/electron-builder.cjs
+  • skipped dependencies rebuild  reason=npmRebuild is set to false
+  • packaging       platform=win32 arch=x64 electron=45.3.2 appOutDir=dist/setup/win-unpacked
+  • downloaded      label=electron progress=100%
+  • downloaded electron zip extracted successfully  output=/workspace/scratch/bbed55876697/pixelwerk-windows/dist/setup/win-unpacked
+  • searching for node modules  pm=npm searchDir=/workspace/scratch/bbed55876697/pixelwerk-windows
+  • no node modules found in collection, trying next search directory  pm=npm searchDir=/workspace/scratch/bbed55876697/pixelwerk-windows
+  • searching for node modules  pm=traversal searchDir=/workspace/scratch/bbed55876697/pixelwerk-windows
+  • using manual traversal of node_modules to build dependency tree
+  • no node modules found in collection, trying next search directory  pm=traversal searchDir=/workspace/scratch/bbed55876697/pixelwerk-windows
+  • no node modules returned while searching directories  searchDirectories=[""]
+  • updating asar integrity executable resource  executablePath=dist/setup/win-unpacked/Pixelwerk.exe
+  • file signing skipped via signExecutable configuration  file=dist/setup/win-unpacked/Pixelwerk.exe
+  • building        target=nsis file=dist/setup/Pixelwerk-5.0.1-Windows-x64-Setup.exe archs=x64 oneClick=false perMachine=false
+  • file signing skipped via signExecutable configuration  file=dist/setup/Pixelwerk-5.0.1-Windows-x64-Setup.__uninstaller.exe
+  • file signing skipped via signExecutable configuration  file=dist/setup/Pixelwerk-5.0.1-Windows-x64-Setup.exe
+e7d695bf1881f6f2b2d1313c53f3f26c1defa0b57be5332b070a6e8cc1755510  Pixelwerk-5.0.0-Quellcode.zip
+bcb364149ccedd1d3ef6f9fa6fd23ffcd6fd9d01e017906a157cb3f86dd44a61  Pixelwerk-5.0.0-Windows-x64-Portable.zip
+f5d599e83975b896e05b75df0fff4b05485add1c070c03e293050cc8598a5d47  Pixelwerk-5.0.0-Windows-x64-Setup.exe
+6f13310abdff12ca72e1811d5557327b14fa22d65ed5654a8223c90ef8fdb687  Pixelwerk-5.0.1-Windows-x64-Portable.zip
+263c8e9e5dc898832c42394cc1e1d007622341d445d4a94c2f5369600229ea3f  Pixelwerk-5.0.1-Windows-x64-Setup.exe
+e7d695bf1881f6f2b2d1313c53f3f26c1defa0b57be5332b070a6e8cc1755510  Pixelwerk-5.0.0-Quellcode.zip
+bcb364149ccedd1d3ef6f9fa6fd23ffcd6fd9d01e017906a157cb3f86dd44a61  Pixelwerk-5.0.0-Windows-x64-Portable.zip
+f5d599e83975b896e05b75df0fff4b05485add1c070c03e293050cc8598a5d47  Pixelwerk-5.0.0-Windows-x64-Setup.exe
+6f13310abdff12ca72e1811d5557327b14fa22d65ed5654a8223c90ef8fdb687  Pixelwerk-5.0.1-Windows-x64-Portable.zip
+263c8e9e5dc898832c42394cc1e1d007622341d445d4a94c2f5369600229ea3f  Pixelwerk-5.0.1-Windows-x64-Setup.exe

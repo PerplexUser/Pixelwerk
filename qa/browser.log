@@ -1,0 +1,38 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> pixelwerk-desktop@5.0.1 test:e2e
+> playwright test
+
+
+Running 21 tests using 1 worker
+
+(node:32) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/e2e/editor.spec.cjs:39:1 › Explorer images load on startup and later notifications remain ordered (3.8s)
+  ✓   2 tests/e2e/editor.spec.cjs:47:1 › Explorer opening respects unsaved cancellation and discard; damaged images preserve the document (991ms)
+  ✓   3 tests/e2e/editor.spec.cjs:55:1 › Save as labels and format choices are localized; queued Explorer images wait for saving (1.8s)
+  ✓   4 tests/e2e/editor.spec.cjs:90:1 › baseline and desktop load without errors; all 16 tools and 72 stickers retain order (1.3s)
+  ✓   5 tests/e2e/editor.spec.cjs:99:1 › PNG/JPG/BMP import; invalid and oversized images preserve the document (1.0s)
+  ✓   6 tests/e2e/editor.spec.cjs:107:1 › new canvas backgrounds, exact dimension validation and dirty close state (1.2s)
+  ✓   7 tests/e2e/editor.spec.cjs:113:1 › raster, text and sticker resize proportionally with editable undo/redo (1.7s)
+  ✓   8 tests/e2e/editor.spec.cjs:123:1 › brush/eraser gestures produce pixels and one undo restores editable text (2.0s)
+  ✓   9 tests/e2e/editor.spec.cjs:130:1 › annotation layers, geometry cancellation and selection clipping (2.2s)
+  ✓  10 tests/e2e/editor.spec.cjs:138:1 › crop retains layers and undo restores dimensions and positions (965ms)
+  ✓  11 tests/e2e/editor.spec.cjs:143:1 › native clipboard copy survives document replacement including internal fallback (2.5s)
+  ✓  12 tests/e2e/editor.spec.cjs:149:1 › export cancellation/error retains dirty; confirmed write clears it; PNG/JPG/BMP bytes valid (3.0s)
+  ✓  13 tests/e2e/editor.spec.cjs:161:1 › live effects included in export without rasterizing text; reset and undo remain available (1.5s)
+  ✓  14 tests/e2e/editor.spec.cjs:166:1 › language switches preserve user text, and text inputs take precedence over shortcuts (1.3s)
+  ✓  15 tests/e2e/editor.spec.cjs:172:1 › layer position adapter validates without mutation and undo works (711ms)
+  ✓  16 tests/e2e/editor.spec.cjs:177:1 › deterministic brush, fill and effects pixels match the untouched web baseline (7.0s)
+  ✓  17 tests/e2e/editor.spec.cjs:189:1 › external requests are prevented by CSP and no Node or generic IPC is exposed (450ms)
+  ✓  18 tests/e2e/editor.spec.cjs:193:1 › a completed older export never clears a more recent edit (1.0s)
+  ✓  19 tests/e2e/editor.spec.cjs:202:1 › all tool shortcuts, numeric layer controls, undo cap and redo branching (4.3s)
+  ✓  20 tests/e2e/editor.spec.cjs:215:1 › stationary airbrush stops on blur; line and background eraser respect selection (2.5s)
+  ✓  21 tests/e2e/editor.spec.cjs:222:1 › 20 MP boundary canvas can be painted, undone and exported without page failure (8.6s)
+
+  21 passed (51.7s)
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice

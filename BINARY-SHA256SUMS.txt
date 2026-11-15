@@ -1,0 +1,2 @@
+6f13310abdff12ca72e1811d5557327b14fa22d65ed5654a8223c90ef8fdb687  Pixelwerk-5.0.1-Windows-x64-Portable.zip
+263c8e9e5dc898832c42394cc1e1d007622341d445d4a94c2f5369600229ea3f  Pixelwerk-5.0.1-Windows-x64-Setup.exe

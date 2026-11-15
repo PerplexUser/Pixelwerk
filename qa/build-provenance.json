@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-15",
+  "source_commit": "aabd4454d0b1adbaf357b2468fe9d71f64a184fd",
+  "reference_sha256": "36e9b69713b49b1e986cf2b80d84743d7984bde24238573f059b7c06a0f27c5e",
+  "os": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "node": "v24.22.1",
+  "npm": "11.9.0",
+  "electron": "45.3.2",
+  "electron_builder": "26.18.0",
+  "nsis": "3.12 (toolset 1.2.1)",
+  "browser_qa": "Chromium 153.0.8010.0 headless shell, Linux single process, native IPC mocked",
+  "tests": {
+    "unit_integration_passed": 33,
+    "browser_passed": 21,
+    "windows_executed": false
+  },
+  "signing": "unsigned",
+  "setup_compression_level": 1,
+  "portable_zip_compression_level": 5,
+  "linux_build_compatibility": [
+    "Pure-data NSIS UninstallerReader extraction from pinned app-builder-lib",
+    "TMPDIR-aware tmpfile shim scripts/nsis-tmpdir.c"
+  ],
+  "production_approved": false,
+  "version": "5.0.1",
+  "windows_associations": "Registered by setup; final default choice requires Windows system UI"
+}
